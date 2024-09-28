@@ -1,0 +1,14 @@
+.trendingCard .location {
+    gap: 10px !important;
+}
+.trendingCard .location p{
+    font-size: 14px !important;
+}
+@media screen  and (max-width : 992px) {
+    .trendingCard .location{
+        gap: 15px !important;
+    }
+    .trendingCard .location p{
+        font-size: 12px !important;
+    }
+}

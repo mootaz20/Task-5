@@ -1,0 +1,24 @@
+.photoComp{
+    background-image: url('/Task-5/assets/images/photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.photoComp h1{
+    font-size: 70px !important;
+    margin-bottom: 28px;
+}
+.photoComp p{
+    font-size: 30px !important;
+}
+
+@media screen and (max-width : 992px) {
+    .photoComp h1{
+        font-size: 30px !important;
+        margin-bottom: 10px !important;
+    }
+    .photoComp p{
+        font-size: 15px !important;
+    }
+}

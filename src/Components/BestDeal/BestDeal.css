@@ -1,0 +1,8 @@
+.bestDeal .bestDealPhoto{
+    gap: 31px;
+}
+@media screen and (max-width : 992px) {
+    .bestDeal .bestDealPhoto{
+        gap: 20px;
+    }
+}
